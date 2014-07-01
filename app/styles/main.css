@@ -30,7 +30,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #4285f4;
+  background-color: #4fa048;
   overflow: hidden;
   z-index: 1;
 }
@@ -205,6 +205,13 @@ button.menu img {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+.main-wrapper {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
 main {
   margin: 0 auto;
   /* Height of the header */
@@ -224,7 +231,7 @@ main {
     max-width: 864px;
     padding: 0 16px;
     box-sizing: border-box;
-    background-color: #4285f4;
+    background-color: #4fa048;
   }
 
   .app-bar .logo {
@@ -327,4 +334,17 @@ main {
     flex: 1;
     text-align: center;
   }
+}
+
+
+.iphone-frame {
+    background-image: url(../images/iphone.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    width: 238px;
+    height: 508px;
+    padding-top: 71px;
+    padding-left: 16px;
+    padding-right: 14px;
 }
