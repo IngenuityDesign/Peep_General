@@ -2,11 +2,10 @@
 title: Your awesome title
 email: info@peep.com
 
-# imgs: "/assets"
-# url: "http://s3.amazonaws.com/peep-emails"
+imgs: "http://s3.amazonaws.com/peep-emails/assets"
+url: "http://www.peep.com"
 
-imgs: "/img"
-url: ""
+# imgs: "/img"
 
 baseurl: ""
 
