@@ -5,6 +5,8 @@ btn: /confirm_sub.png
 
 <ul>
   {% for page in site.pages %}
+    {% if page.title %}
     <li><a href="{{page.url}}">{{page.title}}</a>
+    {% endif %}
   {% endfor %}
 </ul>
