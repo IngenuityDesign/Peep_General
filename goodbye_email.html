@@ -1,0 +1,68 @@
+---
+layout: default
+btn: /unsub_successful.png
+---
+
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="{{site.p}}">
+    <!-- header -->
+
+    {% include header.html %}
+
+    <!-- end header -->
+    <tr>
+        <td>
+
+            <!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->
+            <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 650px;" width="650">
+                <tr><td height="45"></td></tr>
+                <tr>
+                    <td>
+                         <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 650px;" width="650">
+                            <tr>
+                                <td style="text-align: center;" align="center">
+                                    <p style="{{site.p}}">You have been unsubscribed from our list.<br>We're sorry to see you go.</p>
+                                </td>
+                            </tr>
+
+                            <tr><td height="40"></td></tr>
+
+                            <tr>
+                                <td style="text-align: center;" align="center">
+                                    <p style="{{site.p}}">
+                                      <strong style="font-size:20px;">Did someone unsubscribe you by mistake?</strong><br>
+                                      If you forwarded our email to a friend, and that friend unsubscribed<br>you by mistake, here’s how you can resubscribe:
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr><td height="20"></td></tr>
+                            <tr>
+                                <td style="text-align: center;" align="center">
+                                <a href="http://peep.us3.list-manage.com/subscribe?u=b97b971a977910f878ba92a94&id=f781744731">
+                                    <img src="{{ '/resub_here_btn.png' | prepend: site.imgs }}"
+                                </a>
+                                </td>
+                            </tr>
+                            <tr><td height="40"></td></tr>
+
+                            <tr>
+                                <td style="text-align: center;" align="center">
+                                    <p style="{{site.p}}">
+                                      For questions or comments, please contact us at:<br>
+                                      <a style="font-weight: bold; color: #79c043; text-decoration: none;" href="mailto:{{site.email}}">{{site.email}}</a></p>
+                                    </p>
+                                </td>
+                            </tr>
+
+                         </table>
+
+                    </td>
+                </tr>
+
+
+            </table>
+
+
+        </td>
+    </tr>
+</table>

@@ -1,35 +1,15 @@
 ---
 layout: default
+btn: /confirm_sub.png
 ---
 
 <table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="{{site.p}}">
-	<tr bgcolor="#79c043">
-		<td height="107" style="height: 107px; background-image: url(' {{ '/header.png' | prepend: site.imgs }}');">
-			<table cellpadding="10" cellspacing="0" border="0" align="center" style="{{site.p}} width: 650px;" width="650">
-				<tr >
-					<td align="center">
-						<img src="{{ '/logo.png' | prepend: site.imgs }}">
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
 
-	<tr bgcolor="#292929">
-		<td>
-			<table cellpadding="10" cellspacing="0" border="0" align="center" style="{{site.p}} width: 650px;" width="650">
-				<tr >
-					<td align="center">
-						<img src="{{ '/confirm_sub.png' | prepend: site.imgs }}">
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
+	{% include header.html %}
 
 	<tr>
 		<td>
-			<table cellpadding="0" cellspacing="0" border="0" align="center" style="{{site.p}} width: 650px;" width="650">
+			<table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 650px;" width="650">
 				<tr>
 					<td height="45"></td>
 				</tr>
