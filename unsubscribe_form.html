@@ -1,0 +1,70 @@
+---
+layout: default
+btn: /unsub.png
+title: Unsubscribe Form
+---
+<form id="mc-unsubscribe-form" action="http://peep.us3.list-manage.com/unsubscribe/post" method="post">
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="{{site.p}}">
+    <!-- header -->
+    {% include header.html %}
+
+    <!-- end header -->
+    <tr>
+        <td>
+
+            <!-- Tables are the most common way to format your email consistently. Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. Use nested tables as a way to space effectively in your message. -->
+            <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 650px;" width="650">
+                <tr><td height="45"></td></tr>
+                <tr>
+                    <td style="text-align: center;" align="center">
+                        <p style="{{site.p}}">Enter your email address to unsubscribe from Peep:</p>
+                    </td>
+                </tr>
+                <tr><td height="22"></td></tr>
+                <tr>
+                    <td>
+                        <!-- start field -->
+                         <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 650px;" width="650">
+                            <tr>
+                                <td style="text-align: center;" align="center">
+                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 368px;background: url(' {{ '/email_field.png' | prepend: site.imgs }}') no-repeat center center; height:47px;" width="368" height="47">
+                                    	<tr>
+                                    		<td>
+
+                                    		<table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 340px;height:42px;" width="340" height="42">
+                                      		<tr>
+                                        		<td align="center">
+                                                <input type="hidden" name="u" value="b97b971a977910f878ba92a94">
+                                                <input type="hidden" name="id" value="f781744731">
+                                        			  <input style="color:#79c043;border:none; background:transparent; outline:0; width: 100%;text-align:left;" value="*|EMAIL|*" placeholder="Email Address">
+                                        		</td>
+                                      		</tr>
+                                    		</table>
+
+                                    		</td>
+                                    	</tr>
+                                    </table>
+                                </td>
+                            </tr>
+                         </table>
+                         <!-- end field -->
+                    </td>
+                </tr>
+
+                <tr><td height="40"></td></tr>
+
+                <tr>
+                    <td style="text-align: center;" align="center">
+                    <button type="submit"style="padding: 0; margin: 0; background: none; background-color: transparent; outline: 0; border: 0 !important; cursor: pointer;">
+                      <img src="{{ '/unsub_btn.png' | prepend: site.imgs }}" width="143">
+                    </button>
+                    </td>
+                </tr>
+
+            </table>
+
+
+        </td>
+    </tr>
+</table>
+</form>
