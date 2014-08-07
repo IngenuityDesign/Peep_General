@@ -1,14 +1,65 @@
----
-layout: default
----
-<div class="post">
+<html>
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-  </header>
+<head>
+	<title>{{page.title}}</title>
+	<style type="text/css">
+	@font-face {
+		font-family: bpreplay;
+		src: url('http://s3.amazonaws.com/peep-emails/fonts/BPreplay.otf');
+	}
+		html,body {
+			min-height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		body {
+			background-image: url('{{ '/grid_bg.png' | prepend: site.imgs }}');
+			font-family: 'bpreplay', 'Helvetica', 'Open-sans', Arial, sans-serif;
+			color: white;
+			font-size: 15px;
+		}
 
-  <article class="post-content">
-  {{ content }}
-  </article>
 
-</div>
+		.header, .body, .footer {
+			text-align: center;
+			width: 600px;
+			margin: 0 auto;
+		}
+
+		.header {
+			padding-top: 65px;
+		}
+
+		.body {
+			padding-top: 40px;
+		}
+
+		.footer {
+			padding-top: 25px;
+		}
+
+		h2 {
+			font-size: 24px;
+			color: white;
+		}
+
+		p {
+			margin: 30px 0;
+			font-size: 18px;
+			line-height: 25px;
+		}
+
+		h2, p {
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+		}
+
+	</style>
+</head>
+
+<body>
+
+	{{content}}
+
+</body>
+
+</html>
